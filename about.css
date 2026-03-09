@@ -1,0 +1,110 @@
+/* ブラウザで設定されているスタイルのリセット・共通設定 */
+/* 消さないでください */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+/* スタイルのリセット終了 */
+.Dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* ここからコード開始*/
+
+body {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 810px;
+  background-image: url(34093793_m\ 1.png);
+  border-right: 10px solid #ffff00;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link a {
+  margin: 25px 0px;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+.link :hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sns {
+  display: inline-block;
+  margin: 25px 0px;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.sns a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px;
+}
+
+.sns :hover {
+  color: #ffff00;
+}
+
+.main {
+  background-image: url(Gemini_Generated_Image_bzp7hbzp7hbzp7hb.png);
+  background-size: cover;
+  width: 80%;
+}
+
+.main h1 {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 70px 70px;
+  padding: 20px 20px;
+  font-size: 30px;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+}

@@ -1,0 +1,163 @@
+/* ブラウザで設定されているスタイルのリセット・共通設定 */
+/* 消さないでください */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+/* スタイルのリセット終了 */
+.Dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* ここからコード開始*/
+
+body {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  height: 810px;
+  background-image: url(34093793_m\ 1.png);
+  border-right: 10px solid #ffff00;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link a {
+  margin: 25px 0px;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+.link :hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sns {
+  display: inline-block;
+  margin: 25px 0px;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.sns a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px;
+}
+
+.sns :hover {
+  color: #ffff00;
+}
+
+.main {
+  background-image: url(1087771.png);
+  background-size: cover;
+  width: 80%;
+}
+
+.main h1 {
+  margin: 0px 40px;
+  font-size: 50px;
+  display: inline-block;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 1px 1px grey;
+}
+
+.cover {
+  position: fixed;
+  top: 140px;
+  left: 410px;
+  width: 28%;
+  border: 1px solid #ffff00;
+}
+
+.main p {
+  writing-mode: vertical-rl;
+  font-size: 30px;
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4.5px;
+}
+
+.text1 {
+  position: fixed;
+  top: 90px;
+  right: 103px;
+}
+
+.text2 {
+  position: fixed;
+  top: 90px;
+  right: 195px;
+}
+
+.text3 {
+  position: fixed;
+  top: 90px;
+  right: 288px;
+}
+
+.text4 {
+  position: fixed;
+  top: 90px;
+  right: 335px;
+}
+
+.text5 {
+  position: fixed;
+  top: 90px;
+  right: 427px;
+}
+
+.text6 {
+  position: fixed;
+  top: 90px;
+  right: 473px;
+}
